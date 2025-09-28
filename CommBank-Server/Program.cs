@@ -21,6 +21,7 @@ ITagsService tagsService = new TagsService(mongoDatabase);
 ITransactionsService transactionsService = new TransactionsService(mongoDatabase);
 IUsersService usersService = new UsersService(mongoDatabase);
 
+builder.Services.AddSingleton(mongoDatabase);
 builder.Services.AddSingleton(accountsService);
 builder.Services.AddSingleton(authService);
 builder.Services.AddSingleton(goalsService);
