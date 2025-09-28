@@ -48,6 +48,9 @@ Temporary Items
 # Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+
+# Secrets and sensitive configuration files
+**/Secrets.json
 ehthumbs_vista.db
 
 # Dump file
